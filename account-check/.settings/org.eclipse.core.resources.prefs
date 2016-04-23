@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
+encoding//src/main/java/com/geekstar/batch/accountcheck/Implement/BalanceTable.java=UTF-8
+encoding//src/main/java/com/geekstar/batch/accountcheck/Implement/ResultTable.java=UTF-8
 encoding//src/main/java/com/geekstar/batch/accountcheck/Interface/IBalanceTable.java=UTF-8
 encoding//src/main/java/com/geekstar/batch/accountcheck/Interface/IDetailFile.java=UTF-8
 encoding//src/main/java/com/geekstar/batch/accountcheck/Interface/IResultTable.java=UTF-8
+encoding//src/test/java/com/geekstar/batch/accountcheck/Implement/TestBalanceTable.java=UTF-8
+encoding//src/test/java/com/geekstar/batch/accountcheck/Implement/TestDetailFile.java=UTF-8
