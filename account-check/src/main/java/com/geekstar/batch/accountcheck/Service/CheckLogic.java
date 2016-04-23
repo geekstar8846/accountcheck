@@ -72,7 +72,8 @@ public class CheckLogic {
 		CheckLogic cl = new CheckLogic();
 		
 		//不等具体实现，即可并行开发:BalanceTable>MyBalanceTable, DetailFile>MyDetailFile, ResultTable>MyResultTable
-		cl.check("20160101", file, new MyBalanceTable(), new MyDetailFile(), new MyResultTable());
+		//cl.check("20160101", file, new MyBalanceTable(), new MyDetailFile(), new MyResultTable());
+		cl.check("20160101", file, new BalanceTable(), new DetailFile(), new ResultTable());
 		
 		System.out.println("batch processing is done.");
 	}

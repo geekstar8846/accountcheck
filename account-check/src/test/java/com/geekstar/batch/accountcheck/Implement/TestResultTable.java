@@ -11,11 +11,16 @@ import com.geekstar.batch.accountcheck.Bean.ResultBean;
 import com.geekstar.batch.accountcheck.Interface.IResultTable;
 
 public class TestResultTable {
-
+	
 	@Test
 	public void testMyAddResultBean() {
 		//只要接口不变，不等你的具体实现，我就可以并行开发了
 		addResultBeanTest( new MyResultTable() );
+	}
+	
+	@Test
+	public void testAddResultBean() {
+		addResultBeanTest( new ResultTable() );
 	}
 
 	

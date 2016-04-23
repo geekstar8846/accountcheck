@@ -18,6 +18,12 @@ public class TestDetailFile {
 		getDetailBeanListTest( new MyDetailFile() );
 	}
 
+	@Test
+	public void testGetDetailBeanList() {
+		//只要接口不变，不等你的具体实现，我就可以并行开发了
+		getDetailBeanListTest( new DetailFile() );
+	}
+
 	
 	private void getDetailBeanListTest(IDetailFile df) {
 		String file = "/Users/wuyg/Documents/workspace_mars2/account-check/detail.20160101";

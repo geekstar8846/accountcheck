@@ -16,6 +16,11 @@ public class TestBalanceTable {
 		getBalanceAmountTest( new MyBalanceTable() );
 	}
 
+	@Test
+	public void testGetBalanceAmount() {
+		getBalanceAmountTest( new BalanceTable() );
+	}
+
 	
 	private void getBalanceAmountTest(IBalanceTable bt) {
 		bt.loadFromDB("20160101");
